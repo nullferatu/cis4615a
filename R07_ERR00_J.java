@@ -3,7 +3,7 @@ public class R07_ERR00_J {
         try {
             throw new java.io.IOException();
         } catch (java.io.IOException e) {
-            // Exception ignored
+            e.printStackTrace(); // Handle the exception
         }
     }
 }
